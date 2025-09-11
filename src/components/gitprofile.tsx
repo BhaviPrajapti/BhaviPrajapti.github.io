@@ -8,9 +8,7 @@ import {
   INVALID_GITHUB_USERNAME_ERROR,
   setTooManyRequestError,
 } from '../constants/errors';
-import '../../css/index.css';
-import '../../css/app.css';
-import '../app.js';
+import '../assets/index.css';
 import { getInitialTheme, getSanitizedConfig, setupHotjar } from '../utils';
 import { SanitizedConfig } from '../interfaces/sanitized-config';
 import ErrorPage from './error-page';

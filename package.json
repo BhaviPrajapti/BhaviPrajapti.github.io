@@ -1,20 +1,22 @@
 {
-  "name": "@arifszn/gitprofile",
+  "name": "@bhavika/gitprofile",
   "description": "Create an automatic portfolio based on GitHub profile",
   "version": "4.0.0",
   "type": "module",
   "license": "MIT",
-  "author": "arifszn",
+  "author": "bhavika",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arifszn/gitprofile.git"
+    "url": "https://github.com/BhavikaPrajapati/BhavikaPrajapati.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/arifszn/gitprofile/issues"
+    "url": "https://github.com/BhavikaPrajapati/BhavikaPrajapati.github.io/issues"
   },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "lint:fix": "eslint . --fix --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "prettier": "prettier --check \"./**/*.{js,jsx,ts,tsx,css,md,json}\"",
@@ -41,6 +43,7 @@
     "eslint-plugin-prettier": "^5.1.3",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.20",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.38",
     "prettier": "^3.6.2",
     "react-hotjar": "^6.3.1",

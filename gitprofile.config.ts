@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'BhavikaPrajapati', // Your GitHub org/user name. (This is the only required config)
+    username: 'BhaviPrajapti', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -25,58 +25,58 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['BhaviPrajapti/portfolio', 'BhaviPrajapti/another-repo'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
-      projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-      ],
+      // projects: [
+      //   {
+      //     title: 'Project Name',
+      //     description:
+      //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+      //     imageUrl:
+      //       'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+      //     link: 'https://example.com',
+      //   },
+      //   {
+      //     title: 'Project Name',
+      //     description:
+      //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+      //     imageUrl:
+      //       'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+      //     link: 'https://example.com',
+      //   },
+      // ],
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
-  // social: {
-  //   linkedin: 'ariful-alam',
-  //   x: 'arif_szn',
-  //   mastodon: 'arifszn@mastodon.social',
-  //   researchGate: '',
-  //   facebook: '',
-  //   instagram: '',
-  //   reddit: '',
-  //   threads: '',
-  //   youtube: '', // example: 'pewdiepie'
-  //   udemy: '',
-  //   dribbble: '',
-  //   behance: '',
-  //   medium: 'arifszn',
-  //   dev: 'arifszn',
-  //   stackoverflow: '', // example: '1/jeff-atwood'
-  //   discord: '',
-  //   telegram: '',
-  //   website: 'https://www.arifszn.com',
-  //   phone: '',
-  //   email: 'arifulalamszn@gmail.com',
-  // },
+  seo: { title: 'Portfolio of Bhavika Prajapti', description: '', imageURL: '' },
+  social: {
+    linkedin: 'www.linkedin.com/in/bhavikaprajapti',
+    //x: 'arif_szn',
+    //mastodon: 'arifszn@mastodon.social',
+    //researchGate: '',
+    //facebook: '',
+    instagram: 'https://www.instagram.com/bhavi_.prajapti/',
+    //reddit: '',
+    //threads: '',
+    //youtube: '', // example: 'pewdiepie'
+   // udemy: '',
+    //dribbble: '',
+    //behance: '',
+    //medium: 'arifszn',
+    //dev: 'arifszn',
+    //stackoverflow: '', // example: '1/jeff-atwood'
+    //discord: '',
+    //telegram: '',
+    website: 'https://bhaviprajapti.github.io/',
+    phone: '+91 9737465726',
+    email: 'home.bhavika@gmail.com',
+  },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '/src/resume/Bhavika Laravel.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
@@ -160,7 +160,7 @@ const CONFIG = {
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: { id: '6517299', snippetVersion: 6 },
   themeConfig: {
-    defaultTheme: 'light',
+    defaultTheme: 'lofi',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -175,8 +175,9 @@ const CONFIG = {
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
-      'light',
+      // 'light',
       'dark',
+      // 'lofi',
     ],
   },
 
